@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="icon" href="assets/favicon.jpg" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Pet Shop Mundo Animal</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="">Mundo Pet</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#loja">Loja</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="section__container header__container">
+            <div class="header_content">
+                <h4>Bem-vindo</h4>
+                <h1>Pet<br /><span>Doutor</span></h1>
+                <h2>Nós amamos animais de estimação assim como você</h2>
+                <p>
+                    Desde exames de rotina até tratamentos especializados, cuidamos para que seu pet tenha sempre uma
+                    vida
+                    saudável e feliz.
+                </p>
+                <div class="header__btn">
+                    <button>
+                        Comece aqui!
+                        <span><i class="ri-arrow-right-line"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header__image">
+                <img src="assets/header-bg.png" alt="patinha de cachorro" class="header__image-bg" />
+                <img src="assets/header (1).png" alt="cachorro" />
+            </div>
+        </div>
+        <div class="header__bottom"></div>
+    </header>
+
+    <section class="section__container intro__container">
+        <p class="section__subheader">introdução</p>
+        <h2 class="section__header">Conheça-nos mais</h2>
+        <div class="intro__grid">
+            <div class="intro__card">
+                <div class="intro__image">
+                    <img src="assets/intro-1.png" alt="introducao" />
+                </div>
+                <h4>Especialistas em animais de estimação</h4>
+                <p>
+                    Conheça nossa equipe de veterinários especializados, dedicados a cuidar do bem-estar e da saúde do
+                    seu
+                    pet com carinho e profissionalismo.
+                </p>
+                <a href="#">Ler mais</a>
+            </div>
+
+            <div class="intro__card">
+                <div class="intro__image">
+                    <img src="assets/intro-2.png" alt="introducao" />
+                </div>
+                <h4>Serviços veterinários</h4>
+                <p>
+                    Oferecemos uma ampla gama de serviços veterinários para garantir que seu pet esteja sempre saudável
+                    e
+                    feliz.
+                </p>
+                <a href="#">Ler mais</a>
+            </div>
+
+            <div class="intro__card">
+                <div class="intro__image">
+                    <img src="assets/intro-3.png" alt="introducao" />
+                </div>
+                <h4>Contate-nos</h4>
+                <p>
+                    Entre em contato conosco para tirar dúvidas ou agendar uma consulta e cuidar do bem-estar do seu
+                    pet!
+                </p>
+                <a href="#">Ler mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+        <p class="section__subheader">Sobre nós</p>
+        <h2 class="section__header">Como podemos ajudar você hoje?</h2>
+        <div class="about__row">
+            <div class="about__image">
+                <img src="assets/about-1.jpg" alt="sobre nos" />
+            </div>
+            <div class="about__content">
+                <span><img src="assets/about-1-icon.png" alt="icone about" /></span>
+                <h4>Conte com a gente para cuidar da saúde e bem-estar do seu pet.</h4>
+                <p>
+                    Nossos veterinários especializados estão prontos para oferecer cuidados completos e orientação
+                    dedicados
+                    à saúde e bem-estar do seu animal de estimação.
+                </p>
+            </div>
+        </div>
+        <div class="about__row">
+            <div class="about__image">
+                <img src="assets/about-2.jpg" alt="sobre nos" />
+            </div>
+            <div class="about__content">
+                <span><img src="assets/about-2-icon.png" alt="icone about" /></span>
+                <h4>Uma equipe dedicada e atenciosa cuidará do seu animal de estimação com todo o carinho que ele
+                    merece.
+                </h4>
+                <p>
+                    Seu animal de estimação receberá cuidados excepcionais de nossa equipe dedicada e bem treinada, que
+                    trata cada pet como se fosse parte da família.
+                </p>
+            </div>
+        </div>
+        <div class="about__row">
+            <div class="about__image">
+                <img src="assets/about-3.jpg" alt="sobre nos" />
+            </div>
+            <div class="about__content">
+                <span><img src="assets/about-3-icon.png" alt="icone about" /></span>
+                <h4>Conte conosco para oferecer o carinho e cuidado que seu adorável animal de estimação precisa.</h4>
+                <p>
+                    Do banho à estética, oferecemos serviços de tosa profissionais para garantir que seu animal de
+                    estimação
+                    esteja sempre com a melhor aparência e bem-estar.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product" id="store">
+        <div class="section__container product__container">
+            <p class="section__subheader">Produtos</p>
+            <h2 class="section__header">Produtos em Destaque para Seu Pet</h2>
+            <div class="product__grid">
+                <div class="product__card">
+                    <img src="assets/product-1.jpg" alt="produtos" />
+                    <h4>Saco de lixo para cachorro</h4>
+                    <p>
+                        Sacos de lixo práticos e ecológicos, ideais para o descarte eficiente e consciente de resíduos
+                        de animais de estimação.
+                    </p>
+                    <h3>R$29,99</h3>
+                </div>
+                <div class="product__card">
+                    <img src="assets/product-2.jpg" alt="produtos" />
+                    <h4>Acessórios para animais de estimação</h4>
+                    <p>
+                        Descubra nossa coleção de acessórios sofisticados e práticos, projetados especialmente para os
+                        seus amigos peludos.
+                    </p>
+                    <h3>R$49,99</h3>
+                </div>
+                <div class="product_card">
+                    <img src="assets/product-3.jpg" alt="produtos" />
+                    <h4>Alimentos de qualidade para o seu melhor amigo</h4>
+                    <p>
+                        Ração nutritiva e saborosa, especialmente formulada para manter seu animal de estimação saudável
+                        e feliz.
+                    </p>
+                    <h3>R$79,99</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+        <p class="section__subheader">Serviços</p>
+        <h2 class="section__header">Como podemos ajudar você hoje?</h2>
+        <div class="service__flex">
+            <div class="service__card">
+                <div>
+                    <img src="assets/service-1.png" alt="servicos" />
+                </div>
+                <p>Atendimento de Emergência</p>
+            </div>
+            <div class="service__card">
+                <div>
+                    <img src="assets/service-2.png" alt="servicos" />
+                </div>
+                <p>Serviços de Vacinação</p>
+            </div>
+            <div class="service__card">
+                <div>
+                    <img src="assets/service-3.png" alt="servicos" />
+                </div>
+                <p>Assessoria Nutricional Especializada</p>
+            </div>
+            <div class="service__card">
+                <div>
+                    <img src="assets/service-4.png" alt="servicos" />
+                </div>
+                <p>Consulta para Compreensão Comportamental de Pets</p>
+            </div>
+            <div class="service__card">
+                <div>
+                    <img src="assets/service-5.png" alt="servicos" />
+                </div>
+                <p>Serviços de hospedagem para o bem-estar do seu pet</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="client">
+        <div class="section__container client__container">
+            <p class="section__subheader">O que Nossos Clientes Dizem</p>
+            <h2 class="section__header">O que nossos clientes falam: feedback e opiniões sobre nossos serviços.</h2>
+            <!-- Container principal do controle deslizante -->
+            <div class="swiper">
+                <!-- Um envoltório adicional é necessário. -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <div class="client__details">
+                                <img src="assets/client-1 (1).jpg" alt="cliente" />
+                                <div>
+                                    <h4>Sofia Martins</h4>
+                                    <h5>Designer gráfico</h5>
+                                </div>
+                            </div>
+                            <p>
+                                O atendimento que meu cachorro recebeu no Pet Shop Mundo Animal foi excepcional. Os
+                                veterinários demonstraram grande atenção e genuíno carinho, priorizando o bem-estar do
+                                meu
+                                pet em cada detalhe.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <div class="client__datails">
+                                <img src="assets/client-2 (1).jpg" alt="cliente" />
+                                <div>
+                                    <h4>Miguel Almeida</h4>
+                                    <h5>Engenheiro de Software</h5>
+                                </div>
+                            </div>
+                            <p>
+                                O Pet Shop Mundo Animal foi essencial para salvar meu gato em uma emergência! A rapidez
+                                na
+                                resposta e a experiência da equipe fizeram toda a diferença. Sou muito grato pelo
+                                cuidado
+                                excepcional!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <div class="client__datails">
+                                <img src="assets/client-3 (1).jpg (1).jpg" alt="cliente" />
+                                <div>
+                                    <h4>Emilly Martins</h4>
+                                    <h5>Professora</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Confio a saúde e o bem-estar de todos os meus animais de estimação ao Pet Shop Mundo
+                                Animal.
+                                A equipe é extremamente profissional e sempre se dedica ao máximo para proporcionar o
+                                melhor
+                                cuidado aos pacientes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <div class="client__datails">
+                                <img src="assets/client-4 (1).jpg (1).jpg" alt="cliente" />
+                                <div>
+                                    <h4>Jeferson Lemos</h4>
+                                    <h5>Especialista em Marketing</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Os serviços de tosa do Pet Shop Mundo Animal são excepcionais! Meu cãozinho sempre
+                                retorna
+                                com um visual renovado e radiante, além de aparentar estar muito feliz. Recomendo a
+                                todos os
+                                tutores que desejam o melhor para seus pets!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client__card">
+                            <div class="client__datails">
+                                <img src="assets/client-5.jpg (1).jpg" alt="cliente" />
+                                <div>
+                                    <h4>David Thomás</h4>
+                                    <h5>Contador</h5>
+                                </div>
+                            </div>
+                            <p>
+                                Nunca conheci uma equipe tão comprometida com o bem-estar dos animais. O Pet Shop Mundo
+                                Animal se tornou minha clínica de confiança para todas as questões relacionadas a pets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container instagram__container">
+        <p>SEGUIR</p>
+        <h2 class="section__header">Instagram</h2>
+        <div class="instagram__grid">
+            <img src="assets/instagram-1.jpg" alt="instagram" />
+            <img src="assets/instagram-2.jpg" alt="instagram" />
+            <img src="assets/instagram-3.jpg" alt="instagram" />
+            <img src="assets/instagram-4.jpg" alt="instagram" />
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#">Espaço para Animais de Estimação</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Empresa</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Loja</a></li>
+                    <li><a href="#">Preços</a></li>
+                    <li><a href="#">Blogue</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Endereço</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Rua Francisco Mangabeira, Bosque</a></li>
+                    <li><a href="#">Ver em mapas</a></li>
+                </ul>
+                <br />
+                <h4>Consultas</h4>
+                <ul class="footer__links">
+                    <li><a href="#">(68) 99943-5959</a></li>
+                    <li><a href="#">atendimento@mundoanimal.com</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Boletim de Notícias</h4>
+                <p>Mantenha-se informado com as últimas novidades.</p>
+                <form action="/">
+                    <input type="text" placeholder="Seu e-mail" />
+                    <button class="btn">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </form>
+                <br />
+                <h4>Siga-nos</h4>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bar">
+            &copy; 2024 Pet Shop Mundo Animal. Cuidando com amor - Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
